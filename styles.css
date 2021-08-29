@@ -16,6 +16,9 @@ body {
 
 nav {
   text-align: center;
+  background-color: #059669;
+  border-bottom-left-radius: 4rem;
+  border-bottom-right-radius: 4rem;
 }
 
 .header {
@@ -43,6 +46,7 @@ nav {
   font-family: inherit;
   font-size: large;
   color: inherit;
+  cursor: pointer;
 }
 
 button {
@@ -54,6 +58,7 @@ button {
   font-family: inherit;
   font-size: large;
   padding: 1rem 2rem;
+  cursor: pointer;
 }
 
 button:hover {
@@ -76,7 +81,10 @@ button:hover {
 footer {
   margin-top: 2rem;
   text-align: justify;
-  font-size: x-large;
+  font-size: large;
+  background-color: #10b981;
+  border-top-left-radius: 4rem;
+  border-top-right-radius: 4rem;
 }
 
 .footer-heading {
